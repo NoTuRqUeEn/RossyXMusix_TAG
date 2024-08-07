@@ -8,22 +8,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID","28967047"))
+API_HASH = getenv("API_HASH","9d85609f45b51aa970fa13f6af3d4947")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN","7177701189:AAF2aoz5qCdIgdWbvIE4JhqdpLUPn7nFm-0")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Sarkar123:GAUTAMMISHRA@sarkar.1uiwqkd.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", -1002247009221))
 
 # Get this value from @MissRose_Bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", None))
+OWNER_ID = int(getenv("OWNER_ID", 7272761426))
 
 # Fill Queue Limit . Example - 15
 QUEUE_LIMIT = int(getenv("QUEUE_LIMIT", "10"))
@@ -36,11 +36,11 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/TeamInflex/InflexMusicBot",
+    "https://github.com/NoTuRqUeEn/RossyXMusix_TAG",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
-    "GIT_TOKEN", None
+    "GIT_TOKEN", "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"
 )  # Fill this variable if your upstream repository is private
 
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
@@ -48,8 +48,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TeamInflex")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/InflexSupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Unconditional_Dps")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+odOtvbGGAohmZjg5")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -71,7 +71,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQG6AIcAOLsNtN7CLsMrgOJDPUA5lbjHZhnt3sIwYgXhrNJ57KLF859LEI0njqJ_EVIcNaE6cpEDZCFlb1w2jSD6Diq8q4s-TWX3scV0SQXjDa1O0HgRSHe35do6P00JbyjYMmINvD2PVT5Ivv36d6A9ReBOpbmaZCfl1RyHFAjDXguto19figTTwWHNMUviSQQy1v83SyzPfiKnA4XkHZVQbSGdyfKe8V4XJzG9BTacF1ooixXrpure37eaHf1YprvdOHGFwTA5DTV0w1GR-gZd7qqTlPFSyyTcByk1HjGtVFOp6o5jxHEiinuxzuAWxtOjYok_JmiTH9U8OPNOz-WtYJ1XQQAAAAGZOa8iAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
