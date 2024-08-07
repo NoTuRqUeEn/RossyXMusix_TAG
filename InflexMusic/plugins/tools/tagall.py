@@ -1,11 +1,10 @@
+from InflexMusic import app 
 import asyncio
-
-from telethon import events
-from telethon.errors import UserNotParticipantError
-from telethon.tl.functions.channels import GetParticipantRequest
-from telethon.tl.types import ChannelParticipantAdmin, ChannelParticipantCreator
 import random
-from InflexMusic import telethn as client
+from pyrogram import Client, filters
+from pyrogram.enums import ChatType, ChatMemberStatus
+from pyrogram.errors import UserNotParticipant
+from pyrogram.types import ChatPermissions
 
 spam_chats = []
 
