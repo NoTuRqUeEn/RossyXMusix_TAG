@@ -40,7 +40,7 @@ UPSTREAM_REPO = getenv(
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
-    "GIT_TOKEN", "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"
+    "GIT_TOKEN", 
 )  # Fill this variable if your upstream repository is private
 
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
